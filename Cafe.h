@@ -9,5 +9,5 @@ public:
 	Cafe();
 	Cafe(string name, double precioB, int grns_Cafe);
 	double calcPrecioFinal();
-
+	int getCafeL();
 };

@@ -9,5 +9,5 @@ public:
 	Chocolate();
 	Chocolate(string name, double precioB, int gramos_azucar);
 	double calcPrecioFinal();
-
+	int getAzucarL();
 };

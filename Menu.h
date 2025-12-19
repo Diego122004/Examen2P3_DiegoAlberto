@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 #include "Bebida.h"
+#include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -15,7 +17,7 @@ public:
 	void vaciarMenu();
 
 	void guardarMenu();
-	void cargarManu();
+	void cargarMenu();
 	Bebida* getBebida(int ind);
 	int tam();
 

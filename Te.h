@@ -9,5 +9,5 @@ public:
 	Te();
 	Te(string name, double precioB, int esencia_H);
 	double calcPrecioFinal();
-
+	int getHierbaL();
 };

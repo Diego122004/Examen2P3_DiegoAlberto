@@ -7,3 +7,6 @@ Cafe::Cafe(string name, double precioB, int granos_Cafe) : Bebida(name, precioB)
 double Cafe::calcPrecioFinal() {
 	return precioBase + ((granos_cafe / 100.0) * precioBase);
 };
+int Cafe::getCafeL() {
+	return this->granos_cafe;
+};

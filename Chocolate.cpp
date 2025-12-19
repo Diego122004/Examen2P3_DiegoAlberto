@@ -8,3 +8,6 @@ Chocolate::Chocolate(string name, double precioB, int gramos_azucar) : Bebida(no
 double Chocolate::calcPrecioFinal() {
 	return precioBase + ((gramos_azucar / 100.0) * precioBase);
 };
+int Chocolate::getAzucarL() {
+	return this->gramos_azucar;
+};
