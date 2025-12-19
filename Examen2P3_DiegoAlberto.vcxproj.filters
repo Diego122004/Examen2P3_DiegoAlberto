@@ -18,5 +18,13 @@
     <ClCompile Include="Examen2P3_DiegoAlberto.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Bebida.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bebida.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
